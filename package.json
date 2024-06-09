@@ -1,11 +1,14 @@
 {
-  "name": "hello-world-nodejs",
-  "version": "1.0.0",
-  "description": "Hello World Node.js app",
+  "name": "first-app",
+  "version": "1.0.1",
+  "description": "My First node app",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
   }
